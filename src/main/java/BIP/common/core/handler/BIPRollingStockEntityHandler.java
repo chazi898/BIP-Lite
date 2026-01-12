@@ -54,7 +54,7 @@ public class BIPRollingStockEntityHandler
                 .RegisterRollingStockEntity(BIPTrainItemIDs.class43.item,
                         new TrainRecord("class43", EntityLocoDieselClass43.class, BIPTrainItemIDs.class43.item, EnumTrainType.Diesel, 0,
                                 new String[] {"White", "Blue", "Brown", "Green", "Red", "Cyan", "LightBlue", "Orange", "Yellow", "Purple", "Pink", "Black", "Grey", "LightGrey", "Magenta", "Lime", "Skin17", "Skin18", "Skin19", "Skin20", "Skin21", "Skin22"}, 12, 0, 0.74, 238,
-                                2250, 60, 160,
+                                2250, 50, 160,
                                 0.7, 3.15f, 10000),
                         Instance()
                 );
