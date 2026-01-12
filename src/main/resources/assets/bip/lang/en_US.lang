@@ -1,0 +1,36 @@
+<!-- ## This is a comment, do no remove or modify these! ## -->
+<!-- ## Only replace the words on the right side of "=" ## -->
+<!-- ## Save the file the same way this file was saved but replace "en_US" with appropriate language name ## -->
+
+item.tc:minecartTemplate.name=Template Train
+
+<!-- ## Items ## -->
+item.bipclass43.name=Class 43 HST
+item.bipBR_Mk3_Coach.name=BR Mk3 Coach
+item.bipBR_Mk3_Buffet.name=BR Mk3 Buffet
+item.bipclass158.name=Class 158
+
+<!-- ## ENTITY ## -->
+entity.tc.class43.name=Class 43 HST
+entity.tc.BR_Mk3_Coach.name=BR Mk3 Coach
+entity.tc.BR_Mk3_Buffet.name=BR Mk3 Buffet
+entity.tc.class158.name=Class 158
+
+<!-- ## GUI ## -->
+menu.item.country=Country
+
+<!-- ## GUI ## -->
+menu.item.=N/A
+menu.item.be=Belgium
+menu.item.uk=United Kingdom
+menu.item.us=United States
+menu.item.ja=Japan
+menu.item.cz=Czech Republic
+menu.item.de=Germany
+menu.item.fr=France
+menu.item.es=Spain
+menu.item.it=Italy
+menu.item.dk=Denmark
+menu.item.pl=Poland
+menu.item.ru=Russia
+menu.item.eu=EU
