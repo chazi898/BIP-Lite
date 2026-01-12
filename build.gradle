@@ -49,14 +49,14 @@ def commonManifest = {
     attributes FMLAT: "oc_at.cfg"
 }
 
-version = "1.0.0"
+version = "1.0"
 group= "src.trainaddon" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "FoxTC_Addon-PACKNAME"
+archivesBaseName = "FoxTC_Addon-BIP-Lite"
 
 minecraft {
     version = "1.7.10-10.13.4.1614-1.7.10"
     runDir = "run"
-    replaceIn "Info.java"
+    replaceIn "BIPLiteInfo.java"
     replace "@VERSION1@", config.modVersion.toString()
 }
 
@@ -148,6 +148,7 @@ dependencies {
     compile "codechicken:CodeChickenLib:1.7.10-1.1.3.136:dev"
     compile "codechicken:CodeChickenCore:1.7.10-1.0.4.35:dev"
     compile "codechicken:NotEnoughItems:1.7.10-1.0.4.90:dev"
+    compile "codechicken:ForgeMultipart:1.7.10-1.2.0.345:dev"
     //implementation "train:Traincraft-4.5.0_001"
 
     // quality of life line to simplify importing jars for experimental testing
@@ -162,10 +163,6 @@ repositories {
         url = "http://maven.cil.li/"
     }
 }
-dependencies
-        {
-            compile "codechicken:ForgeMultipart:1.7.10-1.2.0.345:dev"
-        }
 
 
 
