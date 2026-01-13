@@ -2,5 +2,6 @@
   "HSTHorn": {"category": "master", "sounds" :  [{"name": "HSTHorn", "stream": true}]},
   "Class158Horn": {"category": "master", "sounds" :  [{"name": "Class158Horn", "stream": true}]},
   "Class90Idle": {"category": "master", "sounds" :  [{"name": "Class90Idle", "stream": true}]},
-  "Class868790Thrash": {"category": "master", "sounds" :  [{"name": "Class868790Thrash", "stream": true}]}
+  "Class868790Thrash": {"category": "master", "sounds" :  [{"name": "Class868790Thrash", "stream": true}]},
+  "Mk4DVTHorn": {"category": "master", "sounds" :  [{"name": "Mk4DVTHorn", "stream": true}]}
 }

@@ -8,12 +8,14 @@ item.tc:minecartTemplate.name=Template Train
 item.bipclass43.name=Class 43 HST
 item.bipBR_Mk3_Coach.name=BR Mk3 Coach
 item.bipBR_Mk3_Buffet.name=BR Mk3 Buffet
+item.bipclass90.name=Class 90
 item.bipclass158.name=Class 158
 
 <!-- ## ENTITY ## -->
 entity.tc.class43.name=Class 43 HST
 entity.tc.BR_Mk3_Coach.name=BR Mk3 Coach
 entity.tc.BR_Mk3_Buffet.name=BR Mk3 Buffet
+entity.tc.class90.name=Class 90
 entity.tc.class158.name=Class 158
 
 <!-- ## GUI ## -->

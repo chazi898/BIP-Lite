@@ -355,6 +355,7 @@ item.tc:minecartLocoBR185	Loco Electric BR 185	train.common.entity.rollingStock.
 item.tc:minecartBR_E69	Loco Electric BR_E69	train.common.entity.rollingStock.electric.EntityLocoElectricBR_E69	locoBR_E69_
 item.tc:minecartLocoCD151	Loco Electric CD151	train.common.entity.rollingStock.electric.EntityLocoElectricCD151	CD151_
 item.tc:minecartLocoClass85	Loco Electric Class 85	train.common.entity.rollingStock.electric.EntityLocoElectricClass85	Class85
+item.bipclass90	class90	BIP.common.entity.rollingStock.EntityLocoElectricClass90	Class_90_
 item.tc:minecartE103	Loco Electric E103	train.common.entity.rollingStock.electric.EntityLocoElectricE103	E103_
 item.tc:minecartE10_DB	Loco Electric E10 DB	train.common.entity.rollingStock.electric.EntityLocoElectricE10_DB	locoe10_db_
 item.tc:minecartLocoHighSpeedZeroED	Loco Electric High Speed ZeroED	train.common.entity.rollingStock.electric.EntityLocoElectricHighSpeedZeroED	locoHighSpeedZeroED_

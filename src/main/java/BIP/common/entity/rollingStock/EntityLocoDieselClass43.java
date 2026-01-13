@@ -39,8 +39,6 @@ public class EntityLocoDieselClass43 extends DieselTrain {
         InsertTexture(19, "EMR Blue Buffers");
         InsertTexture(20, "First Great Western");
         InsertTexture(21, "BR Scotrail (Fictional)");
-        InsertTexture(22, "First Great Western Standard Class");
-
     }
 
     public final SoundRecord sound = new SoundRecord(this.getClass(), "bip:HSTHorn", 1.3F, "chme3_idle", 0.65F, 35, "chme3_idle", 0.5F, 35, false, "bell", 18);

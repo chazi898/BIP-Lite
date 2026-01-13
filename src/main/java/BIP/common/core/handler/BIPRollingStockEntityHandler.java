@@ -1,10 +1,7 @@
 package BIP.common.core.handler;
 
 import BIP.common.BIP;
-import BIP.common.entity.rollingStock.EntityLocoDieselClass158;
-import BIP.common.entity.rollingStock.EntityLocoDieselClass43;
-import BIP.common.entity.rollingStock.EntityPassengerBR_MK3_Buffet;
-import BIP.common.entity.rollingStock.EntityPassengerBR_MK3_Coach;
+import BIP.common.entity.rollingStock.*;
 import BIP.common.library.BIPTrainItemIDs;
 import train.common.Traincraft;
 import train.common.library.EnumTrainType;
@@ -60,7 +57,14 @@ public class BIPRollingStockEntityHandler
                 );
 
         /** electric */
-
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(BIPTrainItemIDs.class90.item,
+                        new TrainRecord("class90", EntityLocoElectricClass90.class, BIPTrainItemIDs.class90.item, EnumTrainType.Electric, 0,
+                                new String[] {"Black", "Green", "LightGrey", "Grey", "Pink", "Red", "White", "Magenta", "Brown", "Orange"}, 12, 0, 0.74, 178,
+                                5000, 50, 100,
+                                0.75, 2.77f, 10000),
+                        Instance()
+                );
         /** steam */
 
         /** tender */
