@@ -29,15 +29,9 @@ public class EntityPassengerBR_MK3_Buffet extends AbstractPassengerCar {
         InsertTexture(11, "Grand Central Standard Buffet");
         InsertTexture(12, "Anglia Standard Buffet");
         InsertTexture(13, "Midland Pullman First Buffet");
-        InsertTexture(14, "LNER First Class");
-        InsertTexture(15, "Virgin Standard Class");
-        InsertTexture(16, "GWR Standard Class");
-        InsertTexture(17, "Grand Central Standard Class");
-        InsertTexture(18, "Grand Central First Class");
-        InsertTexture(19, "Network Rail Coach");
-        InsertTexture(20, "Network Rail Coach 2");
-        InsertTexture(21, "First Great Western Standard Class");
-        InsertTexture(22, "First Great Western First Class");
+        InsertTexture(14, "BR ScotRail First Buffet");
+        InsertTexture(15, "Chiltern Railways Buffet");
+        InsertTexture(16, "First Great Western First Buffet");
     }
 
     @Override

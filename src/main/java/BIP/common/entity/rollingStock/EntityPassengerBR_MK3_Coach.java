@@ -37,6 +37,8 @@ public class EntityPassengerBR_MK3_Coach extends AbstractPassengerCar {
         InsertTexture(20, "Network Rail Coach 2");
         InsertTexture(21, "First Great Western Standard Class");
         InsertTexture(22, "First Great Western First Class");
+        InsertTexture(23, "East Midlands Trains Standard Class");
+        InsertTexture(24, "East Midlands Trains First Class");
     }
 
     @Override
