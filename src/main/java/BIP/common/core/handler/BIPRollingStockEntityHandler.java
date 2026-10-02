@@ -70,6 +70,15 @@ public class BIPRollingStockEntityHandler
         /** tender */
 
         /** freight */
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity
+                        (BIPTrainItemIDs.sevenplank.item,
+                                new TrainRecord("sevenplank", EntitySevenplank.class, BIPTrainItemIDs.sevenplank.item, EnumTrainType.Gondola, 1,
+                                        new String[]{"Brown", "Grey", "Blue", "Black", "Cyan",  "Red", "White", "LightGrey", "Green", "Magenta", "Yellow", "Lime", "LightBlue", "Purple"},
+                                        12).setCargoCapacity(36).setAdditionalTooltip(new String[]{"Cargo: any"}),
+                                Instance() // don't touch this line
+                        );
+
 
         /** workcart/brakevan */
 

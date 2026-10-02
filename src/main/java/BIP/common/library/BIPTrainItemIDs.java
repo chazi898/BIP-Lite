@@ -12,6 +12,7 @@ public enum BIPTrainItemIDs
     BR_Mk3_Coach("BR_Mk3_Coach", "br_mk3_coach",1),
     BR_Mk3_Buffet("BR_Mk3_Buffet", "br_mk3_buffet",1),
     class90("class90", "class90",4),
+    sevenplank("7plank", "7plank", 1),
     //minecraftTemplate("template-icon", STEAM, 100),
     //minecraftTemplateUntradeable("template-icon", STEAM)
     ;
