@@ -3,5 +3,9 @@
   "Class158Horn": {"category": "master", "sounds" :  [{"name": "Class158Horn", "stream": true}]},
   "Class90Idle": {"category": "master", "sounds" :  [{"name": "Class90Idle", "stream": true}]},
   "Class868790Thrash": {"category": "master", "sounds" :  [{"name": "Class868790Thrash", "stream": true}]},
-  "Mk4DVTHorn": {"category": "master", "sounds" :  [{"name": "Mk4DVTHorn", "stream": true}]}
+  "Mk4DVTHorn": {"category": "master", "sounds" :  [{"name": "Mk4DVTHorn", "stream": true}]},
+  "NERHClasswhistle": {"category": "master", "sounds" : [{"name": "NERHClasswhistle", "stream": true}]},
+  "NERHClasschuff": {"category": "master", "sounds" : [{"name": "NERHClasschuff", "stream": true}]},
+  "NERHClassIdle": {"category": "master", "sounds" : [{"name": "NERHClassIdle", "stream": true}]},
+  "Wheesh": {"category": "master", "sounds" : [{"name": "Wheesh", "stream": true}]}
 }

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "legacyColors": {
+    "3": "bip:brown",
+    "8": "bip:grey",
+    "4": "bip:blue",
+    "0": "bip:black",
+    "6": "bip:cyan",
+    "1": "bip:red",
+    "15": "bip:white",
+    "7": "bip:lightgrey",
+    "2": "bip:green",
+    "13": "bip:magenta",
+    "11": "bip:yellow",
+    "10": "bip:lime",
+    "12": "bip:lightblue",
+    "5": "bip:purple"
+  },
+  "stock": "bip:sevenplank"
+}

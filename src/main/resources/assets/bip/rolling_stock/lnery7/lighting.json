@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "stock": "bip:lnery7",
+  "lighting": {
+    "defaults": {
+      "fixtures": {}
+    }
+  },
+  "skins": {
+    "bip:blue": {},
+    "bip:green": {},
+    "bip:orange": {},
+    "bip:red": {},
+    "bip:black": {},
+    "bip:grey": {},
+    "bip:lightgrey": {},
+    "bip:lime": {},
+    "bip:lightblue": {},
+    "bip:pink": {}
+  }
+}

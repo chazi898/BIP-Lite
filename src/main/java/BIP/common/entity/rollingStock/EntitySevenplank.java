@@ -20,44 +20,43 @@ public class EntitySevenplank extends AbstractStandardFreightCar {
 
     @Override
     public CargoManager setupCargoManager() {
-
         return new CargoManager(new CargoSpecification[][]
                 {
                         {new CargoSpecification(ModelBip7plank_Load.class,
-                                BIPInfo.bip, "trains/Freight/7Plank", "China_Clay",
-                                new CargoSpecification.RenderParameters().setOffset(0.0, 0.15, 0))
+                                BIPInfo.bip, "trains/Freight/7Plank/Bip7plank_Loads_China_Clay", "China clay",
+                                new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelBip7plank_Load.class,
-                                BIPInfo.bip, "trains/Freight/7Plank", "Factory_goods",
-                                new CargoSpecification.RenderParameters().setOffset(0.0, 0.15, 0))
+                                BIPInfo.bip, "trains/Freight/7Plank/Bip7plank_Loads_Factory_goods", "Warehouse goods",
+                                new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelBip7plank_Load.class,
-                                BIPInfo.bip, "trains/Freight/7Plank", "Tarp",
-                                new CargoSpecification.RenderParameters().setOffset(0.0, 0.15, 0))
+                                BIPInfo.bip, "trains/Freight/7Plank/Bip7plank_Tarp", "Tarp",
+                                new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelBip7plank_Load.class,
-                                BIPInfo.bip, "trains/Freight/7Plank", "Cobble",
-                                new CargoSpecification.RenderParameters().setOffset(0.0, 0.15, 0))
+                                BIPInfo.bip, "trains/Freight/7Plank/Bip7plank_Loads_Cobble", "Cobble",
+                                new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelBip7plank_Load.class,
-                                BIPInfo.bip, "trains/Freight/7Plank", "Coal",
-                                new CargoSpecification.RenderParameters().setOffset(0.0, 0.15, 0))
+                                BIPInfo.bip, "trains/Freight/7Plank/Bip7plank_Loads_Coal", "Coal",
+                                new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelBip7plank_Load.class,
-                                BIPInfo.bip, "trains/Freight/7Plank", "Gravel",
-                                new CargoSpecification.RenderParameters().setOffset(0.0, 0.15, 0))
+                                BIPInfo.bip, "trains/Freight/7Plank/Bip7plank_Loads_Gravel", "Gravel",
+                                new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelBip7plank_Load.class,
-                                BIPInfo.bip, "trains/Freight/7Plank", "Sand",
-                                new CargoSpecification.RenderParameters().setOffset(0.0, 0.15, 0))
+                                BIPInfo.bip, "trains/Freight/7Plank/Bip7plank_Loads_Sand", "Sand",
+                                new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelBip7plank_Load.class,
-                                BIPInfo.bip, "trains/Freight/7Plank", "Dirt",
-                                new CargoSpecification.RenderParameters().setOffset(0.0, 0.15, 0))
+                                BIPInfo.bip, "trains/Freight/7Plank/Bip7plank_Loads_Dirt", "Dirt",
+                                new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelBip7plank_Load.class,
-                                BIPInfo.bip, "trains/Freight/7Plank", "Iron",
-                                new CargoSpecification.RenderParameters().setOffset(0.0, 0.15, 0))
+                                BIPInfo.bip, "trains/Freight/7Plank/Bip7plank_Loads_Iron", "Iron",
+                                new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                 });
     }
@@ -72,14 +71,19 @@ public class EntitySevenplank extends AbstractStandardFreightCar {
         Traincraft.traincraftRegistry.RegisterRollingStockModel(
                 new TrainRenderRecord(BIPInfo.bip,
                         EntitySevenplank.class, new ModelBip7plank(),
-                        "BIP7plank_",
-                        new float[]{0.15f, 0F, 0F},
+                        "Bip7plank_",
+                        new float[]{0f, 0.15F, 0F},
                         new float[]{0F, 180F, 180F},
                         null) {
                 });
     }
     @Override
-    public float getOptimalDistance(EntityMinecart cart) {return  1F;}
+    public float getOptimalDistance(EntityMinecart cart) {return  1.18F;}
+
+    @Override
+    public String getInventoryName() {
+        return "7-plank";
+    }
 
     @Override
     public String transportCountry() {

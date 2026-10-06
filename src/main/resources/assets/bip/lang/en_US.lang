@@ -10,6 +10,8 @@ item.bipBR_Mk3_Coach.name=BR Mk3 Coach
 item.bipBR_Mk3_Buffet.name=BR Mk3 Buffet
 item.bipclass90.name=Class 90
 item.bipclass158.name=Class 158
+item.bip7plank.name=7 plank
+item.bipLNERY7.name=LNER Y7
 
 <!-- ## ENTITY ## -->
 entity.tc.class43.name=Class 43 HST
@@ -17,6 +19,8 @@ entity.tc.BR_Mk3_Coach.name=BR Mk3 Coach
 entity.tc.BR_Mk3_Buffet.name=BR Mk3 Buffet
 entity.tc.class90.name=Class 90
 entity.tc.class158.name=Class 158
+entity.tc.sevenplank.name=7 plank
+entity.tc.LNERY7.name=LNER Y7
 
 <!-- ## GUI ## -->
 menu.item.country=Country

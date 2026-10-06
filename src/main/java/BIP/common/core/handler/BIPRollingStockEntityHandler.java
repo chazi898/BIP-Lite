@@ -66,7 +66,14 @@ public class BIPRollingStockEntityHandler
                         Instance()
                 );
         /** steam */
-
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(BIPTrainItemIDs.LNERY7.item,
+                        new TrainRecord("LNERY7", EntityLocoSteamLNERY7.class, BIPTrainItemIDs.LNERY7.item, EnumTrainType.Steam, 0,
+                                new String[]{"Blue", "Green", "Orange", "Red", "Black", "Grey", "LightGrey", "Lime", "LightBlue", "Pink"}, 8,
+                                0, 0.6, 50, 450,
+                                10, 60, 1, -1f, 2000),
+                        Instance()
+                );
         /** tender */
 
         /** freight */

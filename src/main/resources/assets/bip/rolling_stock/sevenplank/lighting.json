@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "stock": "bip:sevenplank",
+  "lighting": {
+    "defaults": {
+      "fixtures": {}
+    }
+  },
+  "skins": {
+    "bip:brown": {},
+    "bip:grey": {},
+    "bip:blue": {},
+    "bip:black": {},
+    "bip:cyan": {},
+    "bip:red": {},
+    "bip:white": {},
+    "bip:lightgrey": {},
+    "bip:green": {},
+    "bip:magenta": {},
+    "bip:yellow": {},
+    "bip:lime": {},
+    "bip:lightblue": {},
+    "bip:purple": {}
+  }
+}
