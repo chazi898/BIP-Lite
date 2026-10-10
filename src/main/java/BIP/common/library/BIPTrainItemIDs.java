@@ -14,6 +14,8 @@ public enum BIPTrainItemIDs
     class90("class90", "class90",4),
     sevenplank("7plank", "7plank", 1),
     LNERY7("LNERY7", "Y7_Icon", 2),
+    GWR42xx("GWR42xx", "2-8-0_icon", 4),
+
 
     //minecraftTemplate("template-icon", STEAM, 100),
     //minecraftTemplateUntradeable("template-icon", STEAM)

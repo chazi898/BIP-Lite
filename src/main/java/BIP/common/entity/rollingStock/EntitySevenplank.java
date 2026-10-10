@@ -10,12 +10,18 @@ import train.common.Traincraft;
 import train.common.api.AbstractStandardFreightCar;
 import train.common.entity.CargoManager;
 import train.common.entity.CargoSpecification;
+import train.common.overlaytexture.EnumOverlayFonts;
+import train.common.overlaytexture.OTSpecificationDynamic;
+
+import java.awt.*;
 
 public class EntitySevenplank extends AbstractStandardFreightCar {
 
     public EntitySevenplank(World world) {
         super(world);
         setupTextureDescription();
+        this.initOverlayTextures();
+        this.getOverlayTextureContainer().initOverlaySpecification(new OTSpecificationDynamic("Company", 56, 18, 10, EnumOverlayFonts.OxygenSansMid, 20F, OTSpecificationDynamic.AlignmentMode.ALIGN_CENTER_AND_FILL, new Point[]{new Point(326, 112), new Point(270, 92)}));
     }
 
     @Override

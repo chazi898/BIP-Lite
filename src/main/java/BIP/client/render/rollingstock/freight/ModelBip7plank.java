@@ -23,7 +23,7 @@ public class ModelBip7plank extends ModelConverter //Same as Filename
 
 	public ModelBip7plank() //Same as Filename
 	{
-		bodyModel = new ModelRendererTurbo[187];
+		bodyModel = new ModelRendererTurbo[189];
 
 		initbodyModel_1();
 
@@ -31,10 +31,10 @@ public class ModelBip7plank extends ModelConverter //Same as Filename
 
 
 		flipAll();
+
 	}
 	@Override
-	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5)
-	{
+	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
 		super.render(entity, f, f1, f2, f3, f4, f5);
 
 		((AbstractTrains) entity).getCargoManager().renderCargo((AbstractTrains) entity, f, f1, f2, f3, f4, f5);
@@ -229,6 +229,8 @@ public class ModelBip7plank extends ModelConverter //Same as Filename
 		bodyModel[184] = new ModelRendererTurbo(this, 465, 33, textureX, textureY); // Box 188
 		bodyModel[185] = new ModelRendererTurbo(this, 465, 33, textureX, textureY); // Box 189
 		bodyModel[186] = new ModelRendererTurbo(this, 465, 33, textureX, textureY); // Box 190
+		bodyModel[187] = new ModelRendererTurbo(this, 270, 92, textureX, textureY); // Box 188
+		bodyModel[188] = new ModelRendererTurbo(this, 270, 112, textureX, textureY); // Box 189
 
 		bodyModel[0].addShapeBox(0F, 0F, 0F, 1, 2, 20, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.5F, 0F, 0F, -0.5F, 0F, 0F, -0.5F, 0F, 0F, -0.5F); // Box 28
 		bodyModel[0].setRotationPoint(-16F, 2F, -10F);
@@ -790,5 +792,11 @@ public class ModelBip7plank extends ModelConverter //Same as Filename
 
 		bodyModel[186].addShapeBox(0F, 0F, 0F, 1, 12, 1, 0F,0.2F, 0F, 0F, 0.2F, 0F, 0F, 0.2F, 0F, 0F, 0.2F, 0F, 0F, 0.2F, 0F, 0F, 0.2F, 0F, 0F, 0.2F, 0F, 0F, 0.2F, 0F, 0F); // Box 190
 		bodyModel[186].setRotationPoint(-16F, -8F, -5F);
+
+		bodyModel[187].addShapeBox(0F, 0F, 0F, 56, 18, 0, 0F,0F, 0F, 0F, -28F, 0F, 0F, -28F, 0F, 0F, 0F, 0F, 0F, 0F, -9F, 0F, -28F, -9F, 0F, -28F, -9F, 0F, 0F, -9F, 0F); // Box 188
+		bodyModel[187].setRotationPoint(-14F, -7.5F, -10.06F);
+
+		bodyModel[188].addShapeBox(0F, 0F, 0F, 56, 18, 0, 0F,0F, 0F, 0F, -28F, 0F, 0F, -28F, 0F, 0F, 0F, 0F, 0F, 0F, -9F, 0F, -28F, -9F, 0F, -28F, -9F, 0F, 0F, -9F, 0F); // Box 189
+		bodyModel[188].setRotationPoint(-14F, -7.5F, 10.06F);
 	}
 }

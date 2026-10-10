@@ -7,5 +7,8 @@
   "NERHClasswhistle": {"category": "master", "sounds" : [{"name": "NERHClasswhistle", "stream": true}]},
   "NERHClasschuff": {"category": "master", "sounds" : [{"name": "NERHClasschuff", "stream": true}]},
   "NERHClassIdle": {"category": "master", "sounds" : [{"name": "NERHClassIdle", "stream": true}]},
-  "Wheesh": {"category": "master", "sounds" : [{"name": "Wheesh", "stream": true}]}
+  "Wheesh": {"category": "master", "sounds" : [{"name": "Wheesh", "stream": true}]},
+  "GWR4277Chuff": {"category": "master", "sounds" : [{"name": "GWR4277Chuff", "stream": true}]},
+  "GWR4277Idle": {"category": "master", "sounds" : [{"name": "GWR4277Idle", "stream": true}]},
+  "GWRStandardWhistle": {"category": "master", "sounds" : [{"name": "GWRStandardWhistle", "stream": true}]}
 }

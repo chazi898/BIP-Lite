@@ -70,8 +70,15 @@ public class BIPRollingStockEntityHandler
                 .RegisterRollingStockEntity(BIPTrainItemIDs.LNERY7.item,
                         new TrainRecord("LNERY7", EntityLocoSteamLNERY7.class, BIPTrainItemIDs.LNERY7.item, EnumTrainType.Steam, 0,
                                 new String[]{"Blue", "Green", "Orange", "Red", "Black", "Grey", "LightGrey", "Lime", "LightBlue", "Pink"}, 8,
-                                0, 0.6, 50, 450,
-                                10, 60, 1, -1f, 2000),
+                                0, 0.6, 50, 250,
+                                10, 60, 0.7, -1f, 2000),
+                        Instance()
+                );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(BIPTrainItemIDs.GWR42xx.item,
+                        new TrainRecord("GWR42xx", EntityLocoSteam42xx.class, BIPTrainItemIDs.GWR42xx.item, EnumTrainType.Steam, 0,
+                                new String[]{"Blue", "Green", "Lime", "Pink", "Purple", "Red", "Yellow", "Skin17", "White", "Black", "Cyan", "LightBlue", "Grey", "Skin18", "Orange", "LightGrey", "Brown"}, 8,
+                                0, 0.8, 100, 1500, 10, 100, 0.8, -2.54f, 8200),
                         Instance()
                 );
         /** tender */

@@ -1680,4 +1680,10 @@ public class ModelNERHClass extends ModelConverter //Same as Filename
 		bodyModel[410].addShapeBox(0F, 0F, 0F, 2, 1, 1, 0F,-0.65F, -0.4F, -0.4F, -0.2F, -0.4F, -0.4F, -0.2F, -0.4F, -0.4F, -0.65F, -0.4F, -0.4F, -0.65F, -0.7F, -0.4F, -0.2F, -0.7F, -0.4F, -0.2F, -0.7F, -0.4F, -0.65F, -0.7F, -0.4F); // Box 410
 		bodyModel[410].setRotationPoint(16.25F, -4F, -0.5F);
 	}
+	@Override
+	public void render(Entity entity, float f0, float f1, float f2, float f3, float f4, float scale)
+	{
+		super.render(entity, f0, f1, f2, f3, f4, scale);
+		((AbstractTrains) entity).getCargoManager().renderCargo((AbstractTrains) entity, f0, f1, f2, f3, f4, scale);
+	}
 }
