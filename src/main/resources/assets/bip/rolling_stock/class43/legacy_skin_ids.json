@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "legacyColors": {
+    "15": "bip:white",
+    "4": "bip:blue",
+    "3": "bip:brown",
+    "2": "bip:green",
+    "1": "bip:red",
+    "6": "bip:cyan",
+    "12": "bip:lightblue",
+    "14": "bip:orange",
+    "11": "bip:yellow",
+    "5": "bip:purple",
+    "9": "bip:pink",
+    "0": "bip:black",
+    "8": "bip:grey",
+    "7": "bip:lightgrey",
+    "13": "bip:magenta",
+    "10": "bip:lime",
+    "17": "bip:skin17",
+    "18": "bip:skin18",
+    "19": "bip:skin19",
+    "20": "bip:skin20",
+    "21": "bip:skin21",
+    "22": "bip:skin22",
+    "23": "bip:skin23"
+  },
+  "stock": "bip:class43"
+}

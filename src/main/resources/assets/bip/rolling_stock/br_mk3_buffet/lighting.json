@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "stock": "bip:br_mk3_buffet",
+  "lighting": {
+    "defaults": {
+      "fixtures": {}
+    }
+  },
+  "skins": {
+    "bip:cyan": {},
+    "bip:blue": {},
+    "bip:black": {},
+    "bip:brown": {},
+    "bip:red": {},
+    "bip:white": {},
+    "bip:lightgrey": {},
+    "bip:green": {},
+    "bip:magenta": {},
+    "bip:yellow": {},
+    "bip:grey": {},
+    "bip:lime": {},
+    "bip:lightblue": {},
+    "bip:purple": {},
+    "bip:skin17": {},
+    "bip:skin18": {},
+    "bip:skin19": {},
+    "bip:skin20": {}
+  }
+}

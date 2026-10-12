@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "stock": "bip:gwr42xx",
+  "lighting": {
+    "defaults": {
+      "fixtures": {}
+    }
+  },
+  "skins": {
+    "bip:blue": {},
+    "bip:green": {},
+    "bip:lime": {},
+    "bip:pink": {},
+    "bip:purple": {},
+    "bip:red": {},
+    "bip:yellow": {},
+    "bip:skin17": {},
+    "bip:white": {},
+    "bip:black": {},
+    "bip:cyan": {},
+    "bip:lightblue": {},
+    "bip:grey": {},
+    "bip:skin18": {},
+    "bip:orange": {},
+    "bip:lightgrey": {},
+    "bip:brown": {}
+  }
+}

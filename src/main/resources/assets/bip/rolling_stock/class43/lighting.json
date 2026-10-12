@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "stock": "bip:class43",
+  "lighting": {
+    "defaults": {
+      "fixtures": {}
+    }
+  },
+  "skins": {
+    "bip:white": {},
+    "bip:blue": {},
+    "bip:brown": {},
+    "bip:green": {},
+    "bip:red": {},
+    "bip:cyan": {},
+    "bip:lightblue": {},
+    "bip:orange": {},
+    "bip:yellow": {},
+    "bip:purple": {},
+    "bip:pink": {},
+    "bip:black": {},
+    "bip:grey": {},
+    "bip:lightgrey": {},
+    "bip:magenta": {},
+    "bip:lime": {},
+    "bip:skin17": {},
+    "bip:skin18": {},
+    "bip:skin19": {},
+    "bip:skin20": {},
+    "bip:skin21": {},
+    "bip:skin22": {},
+    "bip:skin23": {}
+  }
+}

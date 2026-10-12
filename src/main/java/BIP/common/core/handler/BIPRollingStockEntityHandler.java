@@ -87,11 +87,19 @@ public class BIPRollingStockEntityHandler
         Traincraft.traincraftRegistry
                 .RegisterRollingStockEntity
                         (BIPTrainItemIDs.sevenplank.item,
-                                new TrainRecord("sevenplank", EntitySevenplank.class, BIPTrainItemIDs.sevenplank.item, EnumTrainType.Gondola, 1,
-                                        new String[]{"Brown", "Grey", "Blue", "Black", "Cyan",  "Red", "White", "LightGrey", "Green", "Magenta", "Yellow", "Lime", "LightBlue", "Purple"},
-                                        12).setCargoCapacity(36).setAdditionalTooltip(new String[]{"Cargo: any"}),
+                                new TrainRecord("sevenplank", EntitySevenplank.class, BIPTrainItemIDs.sevenplank.item, EnumTrainType.Gondola, 0.5,
+                                        new String[]{"Brown", "Grey", "Blue", "Black", "Cyan",  "Red", "White", "LightGrey", "Green", "Magenta", "Yellow", "Lime", "LightBlue", "Purple", "Orange", "Pink"},
+                                        12).setCargoCapacity(18).setAdditionalTooltip(new String[]{"Cargo: any"}),
                                 Instance() // don't touch this line
                         );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity
+                        (BIPTrainItemIDs.ventvan.item,
+                                new TrainRecord("ventvan", EntityVentVan.class, BIPTrainItemIDs.ventvan.item, EnumTrainType.Boxcar, 1,
+                                        new String[]{"Brown", "Grey", "Blue", "Black", "Cyan",  "Red", "White", "LightGrey", "Green", "Magenta", "Yellow", "Lime", "LightBlue", "Purple", "Orange", "Pink"},
+                                        12).setCargoCapacity(44).setAdditionalTooltip(new String[]{"Cargo: any"}),
+                                Instance()
+                );
 
 
         /** workcart/brakevan */

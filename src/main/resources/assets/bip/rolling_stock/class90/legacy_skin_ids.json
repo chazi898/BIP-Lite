@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "legacyColors": {
+    "0": "bip:black",
+    "2": "bip:green",
+    "7": "bip:lightgrey",
+    "8": "bip:grey",
+    "9": "bip:pink",
+    "1": "bip:red",
+    "15": "bip:white",
+    "13": "bip:magenta",
+    "3": "bip:brown",
+    "14": "bip:orange",
+    "11": "bip:yellow"
+  },
+  "stock": "bip:class90"
+}

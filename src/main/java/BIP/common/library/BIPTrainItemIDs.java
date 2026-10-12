@@ -9,12 +9,13 @@ import net.minecraft.item.Item;
 public enum BIPTrainItemIDs
 {
     class43("class43", "class43",4),
-    BR_Mk3_Coach("BR_Mk3_Coach", "br_mk3_coach",1),
-    BR_Mk3_Buffet("BR_Mk3_Buffet", "br_mk3_buffet",1),
+    BR_Mk3_Coach("BR_Mk3_Coach", "br_mk3_coach",2),
+    BR_Mk3_Buffet("BR_Mk3_Buffet", "br_mk3_buffet",2),
     class90("class90", "class90",4),
     sevenplank("7plank", "7plank", 1),
-    LNERY7("LNERY7", "Y7_Icon", 2),
+    LNERY7("LNERY7", "Y7_Icon", 3),
     GWR42xx("GWR42xx", "2-8-0_icon", 4),
+    ventvan("ventvan", "Vent_Van_icon", 1),
 
 
     //minecraftTemplate("template-icon", STEAM, 100),

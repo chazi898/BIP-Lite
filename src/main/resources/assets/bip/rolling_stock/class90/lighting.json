@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "stock": "bip:class90",
+  "lighting": {
+    "defaults": {
+      "fixtures": {}
+    }
+  },
+  "skins": {
+    "bip:black": {},
+    "bip:green": {},
+    "bip:lightgrey": {},
+    "bip:grey": {},
+    "bip:pink": {},
+    "bip:red": {},
+    "bip:white": {},
+    "bip:magenta": {},
+    "bip:brown": {},
+    "bip:orange": {},
+    "bip:yellow": {}
+  }
+}

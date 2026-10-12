@@ -13,6 +13,7 @@ item.bipclass158.name=Class 158
 item.bip7plank.name=7 plank
 item.bipLNERY7.name=LNER Y7
 item.bipGWR42xx.name=GWR 42xx/52xx
+item.bipventvan.name=Ventilated Van
 
 <!-- ## ENTITY ## -->
 entity.tc.class43.name=Class 43 HST
@@ -23,6 +24,7 @@ entity.tc.class158.name=Class 158
 entity.tc.sevenplank.name=7 plank
 entity.tc.LNERY7.name=LNER Y7
 entity.tc.GWR42xx.name=GWR 42xx/52xx
+entity.tc.VentVan.name=Ventilated Van
 
 <!-- ## GUI ## -->
 menu.item.country=Country

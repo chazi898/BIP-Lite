@@ -21,7 +21,8 @@ public class EntitySevenplank extends AbstractStandardFreightCar {
         super(world);
         setupTextureDescription();
         this.initOverlayTextures();
-        this.getOverlayTextureContainer().initOverlaySpecification(new OTSpecificationDynamic("Company", 56, 18, 10, EnumOverlayFonts.OxygenSansMid, 20F, OTSpecificationDynamic.AlignmentMode.ALIGN_CENTER_AND_FILL, new Point[]{new Point(326, 112), new Point(270, 92)}));
+        this.getOverlayTextureContainer().initOverlaySpecification(new OTSpecificationDynamic("Company Line 1", 56, 10, 10, EnumOverlayFonts.OxygenSansMid, 20F, OTSpecificationDynamic.AlignmentMode.ALIGN_CENTER_AND_FILL, new Point[]{new Point(326, 112), new Point(270, 92)}));
+        this.getOverlayTextureContainer().initOverlaySpecification(new OTSpecificationDynamic("Company Line 2", 56, 8, 20, EnumOverlayFonts.OxygenSansSmall, 10F, OTSpecificationDynamic.AlignmentMode.ALIGN_CENTER_AND_FILL, new Point[]{new Point(156, 100), new Point(100, 120)}));
     }
 
     @Override
