@@ -100,6 +100,14 @@ public class BIPRollingStockEntityHandler
                                         12).setCargoCapacity(44).setAdditionalTooltip(new String[]{"Cargo: any"}),
                                 Instance()
                 );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity
+                        (BIPTrainItemIDs.TankerUK.item,
+                                new TrainRecord("TankerUK", EntityTankerUK.class, BIPTrainItemIDs.TankerUK.item, EnumTrainType.Tankcar, 0.75,
+                                        new String[]{"Brown", "Grey", "Blue", "Black", "Cyan",  "Red", "White", "LightGrey", "Green", "Magenta", "Yellow", "Lime", "LightBlue", "Purple", "Orange", "Pink"},
+                                        12).setTankCapacity(10000).setAdditionalTooltip(new String[]{"Cargo: fluids"}),
+                                Instance()
+                        );
 
 
         /** workcart/brakevan */
