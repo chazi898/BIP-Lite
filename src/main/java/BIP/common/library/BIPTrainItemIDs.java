@@ -17,6 +17,8 @@ public enum BIPTrainItemIDs
     GWR42xx("GWR42xx", "2-8-0_icon", 4),
     ventvan("ventvan", "Vent_Van_icon", 1),
     TankerUK("TankerUK", "Tanker_BIP_Icon", 1),
+    Lowmac("Lowmac", "LOWMAC_Icon", 1),
+
 
 
     //minecraftTemplate("template-icon", STEAM, 100),

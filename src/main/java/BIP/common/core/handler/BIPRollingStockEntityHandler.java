@@ -105,7 +105,15 @@ public class BIPRollingStockEntityHandler
                         (BIPTrainItemIDs.TankerUK.item,
                                 new TrainRecord("TankerUK", EntityTankerUK.class, BIPTrainItemIDs.TankerUK.item, EnumTrainType.Tankcar, 0.75,
                                         new String[]{"Brown", "Grey", "Blue", "Black", "Cyan",  "Red", "White", "LightGrey", "Green", "Magenta", "Yellow", "Lime", "LightBlue", "Purple", "Orange", "Pink"},
-                                        12).setTankCapacity(10000).setAdditionalTooltip(new String[]{"Cargo: fluids"}),
+                                        12).setTankCapacity(10000),
+                                Instance()
+                        );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity
+                        (BIPTrainItemIDs.Lowmac.item,
+                                new TrainRecord("Lowmac", EntityLowmac.class, BIPTrainItemIDs.Lowmac.item, EnumTrainType.Flatcars, 0.25,
+                                        new String[]{"Brown", "Blue", "Grey", "Green", "Yellow", "Orange"},
+                                        12).setCargoCapacity(36),
                                 Instance()
                         );
 

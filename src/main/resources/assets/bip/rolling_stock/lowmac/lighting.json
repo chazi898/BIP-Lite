@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "stock": "bip:lowmac",
+  "lighting": {
+    "defaults": {
+      "fixtures": {}
+    }
+  },
+  "skins": {
+    "bip:brown": {},
+    "bip:blue": {},
+    "bip:grey": {},
+    "bip:green": {},
+    "bip:yellow": {},
+    "bip:orange": {}
+  }
+}
