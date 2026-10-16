@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "stock": "bip:brbrakevan20t",
+  "lighting": {
+    "defaults": {
+      "fixtures": {}
+    }
+  },
+  "skins": {
+    "bip:brown": {},
+    "bip:grey": {},
+    "bip:red": {},
+    "bip:yellow": {},
+    "bip:orange": {},
+    "bip:black": {}
+  }
+}

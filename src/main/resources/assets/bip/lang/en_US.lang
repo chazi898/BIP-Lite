@@ -16,6 +16,7 @@ item.bipGWR42xx.name=GWR 42xx/52xx
 item.bipventvan.name=Ventilated Van
 item.bipTankerUK.name=PO Tanker
 item.bipLowmac.name=Lowmac
+item.bipBRBrakeVan20t=20t BR Brake Van
 
 <!-- ## ENTITY ## -->
 entity.tc.class43.name=Class 43 HST
@@ -29,6 +30,7 @@ entity.tc.GWR42xx.name=GWR 42xx/52xx
 entity.tc.VentVan.name=Ventilated Van
 entity.tc.TankerUK.name=PO Tanker
 entity.tc.Lowmac.name=Lowmac
+entity.tc.BRBrakeVan20t=20t BR Brake Van
 
 <!-- ## GUI ## -->
 menu.item.country=Country

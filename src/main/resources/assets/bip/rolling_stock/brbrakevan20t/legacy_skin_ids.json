@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "legacyColors": {
+    "3": "bip:brown",
+    "8": "bip:grey",
+    "1": "bip:red",
+    "11": "bip:yellow",
+    "14": "bip:orange",
+    "0": "bip:black"
+  },
+  "stock": "bip:brbrakevan20t"
+}

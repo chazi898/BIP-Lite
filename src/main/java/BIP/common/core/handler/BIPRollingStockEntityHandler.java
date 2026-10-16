@@ -119,6 +119,14 @@ public class BIPRollingStockEntityHandler
 
 
         /** workcart/brakevan */
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity
+                        (BIPTrainItemIDs.BRBrakeVan20t.item,
+                                new TrainRecord("BRBrakeVan20t", EntityBRBrakeVan20t.class, BIPTrainItemIDs.BRBrakeVan20t.item, EnumTrainType.Caboose, 2,
+                                        new String[]{"Brown", "Grey", "Red", "Yellow", "Orange", "Black"},
+                                        12),
+                                Instance()
+                        );
 
 
         // Put Calls to RegisterRollingStockEntity below this.

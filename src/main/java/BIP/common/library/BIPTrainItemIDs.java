@@ -18,6 +18,7 @@ public enum BIPTrainItemIDs
     ventvan("ventvan", "Vent_Van_icon", 1),
     TankerUK("TankerUK", "Tanker_BIP_Icon", 1),
     Lowmac("Lowmac", "LOWMAC_Icon", 1),
+    BRBrakeVan20t("BRBrakeVan20t", "BRBrakeVan20t_Icon", 2)
 
 
 
