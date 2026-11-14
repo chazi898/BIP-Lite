@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "stock": "bip:pepptso",
+  "lighting": {
+    "defaults": {
+      "fixtures": {}
+    }
+  },
+  "skins": {
+    "bip:black": {},
+    "bip:brown": {},
+    "bip:cyan": {},
+    "bip:green": {},
+    "bip:grey": {},
+    "bip:magenta": {},
+    "bip:orange": {},
+    "bip:pink": {},
+    "bip:purple": {},
+    "bip:white": {},
+    "bip:skin20": {},
+    "bip:skin21": {},
+    "bip:skin22": {},
+    "bip:skin23": {},
+    "bip:skin24": {},
+    "bip:skin26": {}
+  }
+}

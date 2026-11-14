@@ -10,5 +10,9 @@
   "Wheesh": {"category": "master", "sounds" : [{"name": "Wheesh", "stream": true}]},
   "GWR4277Chuff": {"category": "master", "sounds" : [{"name": "GWR4277Chuff", "stream": true}]},
   "GWR4277Idle": {"category": "master", "sounds" : [{"name": "GWR4277Idle", "stream": true}]},
-  "GWRStandardWhistle": {"category": "master", "sounds" : [{"name": "GWRStandardWhistle", "stream": true}]}
+  "GWRStandardWhistle": {"category": "master", "sounds" : [{"name": "GWRStandardWhistle", "stream": true}]},
+  "CompoundWhistle": {"category": "master", "sounds" : [{"name": "CompoundWhistle", "stream": true}]},
+  "CompoundChuff": {"category": "master", "sounds" : [{"name": "CompoundChuff", "stream": true}]},
+  "ButtonDoorClosing": {"category":  "master", "sounds" :  [{"name":  "ButtonDoorClosing", "stream": true}]},
+  "PEPHorn": {"category":  "master", "sounds" :  [{"name":  "PEPHorn", "stream": true}]}
 }

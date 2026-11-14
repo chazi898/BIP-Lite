@@ -18,7 +18,12 @@ public enum BIPTrainItemIDs
     ventvan("ventvan", "Vent_Van_icon", 1),
     TankerUK("TankerUK", "Tanker_BIP_Icon", 1),
     Lowmac("Lowmac", "LOWMAC_Icon", 1),
-    BRBrakeVan20t("BRBrakeVan20t", "BRBrakeVan20t_Icon", 2)
+    BRBrakeVan20t("BRBrakeVan20t", "BRBrakeVan20t_Icon", 2),
+    Compound("Compound", "Icon_midland_compound", 4),
+    CompoundTender("CompoundTender", "Icon_midland_compound_tender", 2),
+    peploco("peploco", "PEP_DMSO", 4),
+    pepPTSO("pepPTSO", "PEP_PTSO", 2),
+    pepTSO("pepTSO", "PEP_TSO", 2),
 
 
 

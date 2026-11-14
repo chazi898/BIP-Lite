@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "stock": "bip:peptso",
+  "lighting": {
+    "defaults": {
+      "fixtures": {}
+    }
+  },
+  "skins": {
+    "bip:black": {},
+    "bip:brown": {},
+    "bip:cyan": {},
+    "bip:white": {},
+    "bip:lightblue": {},
+    "bip:lightgrey": {},
+    "bip:lime": {},
+    "bip:yellow": {},
+    "bip:skin17": {},
+    "bip:skin19": {},
+    "bip:skin20": {},
+    "bip:skin21": {},
+    "bip:skin22": {},
+    "bip:skin24": {}
+  }
+}

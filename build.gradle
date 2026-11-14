@@ -152,7 +152,10 @@ dependencies {
     //implementation "train:Traincraft-4.5.0_001"
 
     // quality of life line to simplify importing jars for experimental testing
+    compile fileTree(dir: 'jarfolder', includes: ['*.jar'])
+    compile fileTree(dir: 'libs', include: ['*.jar'])
     compile fileTree(dir: 'lib', include: ['*.jar'])
+
 }
 repositories {
     maven {
@@ -163,8 +166,6 @@ repositories {
         url = "http://maven.cil.li/"
     }
 }
-
-
 
 
 afterEvaluate {

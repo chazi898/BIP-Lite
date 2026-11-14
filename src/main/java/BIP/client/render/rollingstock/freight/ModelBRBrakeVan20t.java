@@ -275,10 +275,10 @@ public class ModelBRBrakeVan20t extends ModelConverter //Same as Filename
 		bodyModel[237] = new ModelRendererTurbo(this, 481, 73, textureX, textureY); // Box 240
 		bodyModel[238] = new ModelRendererTurbo(this, 1, 81, textureX, textureY); // Box 553
 		bodyModel[239] = new ModelRendererTurbo(this, 17, 1, textureX, textureY); // Box 554
-		bodyModel[240] = new ModelRendererTurbo(this, 9, 81, textureX, textureY); // Lamp
+		bodyModel[240] = new ModelRendererTurbo(this, 9, 81, textureX, textureY, "taillamp"); // Lamp
 		bodyModel[241] = new ModelRendererTurbo(this, 17, 81, textureX, textureY); // Box 244
 		bodyModel[242] = new ModelRendererTurbo(this, 273, 1, textureX, textureY); // Box 245
-		bodyModel[243] = new ModelRendererTurbo(this, 25, 81, textureX, textureY); // Box 246
+		bodyModel[243] = new ModelRendererTurbo(this, 25, 81, textureX, textureY, "taillamp"); // Box 246
 		bodyModel[244] = new ModelRendererTurbo(this, 25, 81, textureX, textureY); // Box 245
 		bodyModel[245] = new ModelRendererTurbo(this, 49, 81, textureX, textureY); // Box 246
 		bodyModel[246] = new ModelRendererTurbo(this, 73, 81, textureX, textureY); // Box 247

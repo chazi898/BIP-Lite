@@ -39,3 +39,11 @@ runserver
 run_server/
 
 gradle.properties
+
+devdata/rollingstock_icons/settings/v1_bip_7plank_c6.json
+
+devdata/Trains-PrefixData.tsv
+
+jarfolder/Fox-Traincraft-3.2.1.4-dev.jar
+
+build.gradle

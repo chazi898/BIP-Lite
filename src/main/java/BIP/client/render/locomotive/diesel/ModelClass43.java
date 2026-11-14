@@ -310,10 +310,10 @@ public class ModelClass43 extends ModelConverter //Same as Filename
 		bodyModel[271] = new ModelRendererTurbo(this, 491, 135, textureX, textureY); // 46
 		bodyModel[272] = new ModelRendererTurbo(this, 183, 129, textureX, textureY); // Box 23
 		bodyModel[273] = new ModelRendererTurbo(this, 183, 129, textureX, textureY); // Box 23
-		bodyModel[274] = new ModelRendererTurbo(this, 482, 125, textureX, textureY, "Lamp"); // Lamp
-		bodyModel[275] = new ModelRendererTurbo(this, 495, 125, textureX, textureY, "Lamp"); // Lamp
-		bodyModel[276] = new ModelRendererTurbo(this, 469, 125, textureX, textureY, "Lamp"); // Lamp
-		bodyModel[277] = new ModelRendererTurbo(this, 462, 125, textureX, textureY, "Lamp"); // Lamp
+		bodyModel[274] = new ModelRendererTurbo(this, 482, 125, textureX, textureY, "headlamp"); // Lamp
+		bodyModel[275] = new ModelRendererTurbo(this, 495, 125, textureX, textureY, "sideheadlampleft"); // Lamp
+		bodyModel[276] = new ModelRendererTurbo(this, 469, 125, textureX, textureY, "headlamp"); // Lamp
+		bodyModel[277] = new ModelRendererTurbo(this, 462, 125, textureX, textureY, "sideheadlampright"); // Lamp
 
 		bodyModel[0].addShapeBox(0F, 0F, 0F, 68, 1, 20, 0F,0F, 0F, 0.5F, 0F, 0F, 0.5F, 0F, 0F, 0.5F, 0F, 0F, 0.5F, 0F, -0.5F, 0.4F, 0F, -0.5F, 0.4F, 0F, -0.5F, 0.4F, 0F, -0.5F, 0.4F); // Box 0
 		bodyModel[0].setRotationPoint(-41F, 0F, -10F);

@@ -23,6 +23,7 @@ item.tc:minecartAmCafe2	AmCafe2	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.
 item.tc:minecartAmfleet	Amfleet	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.Amfleet	amfleet_
 item.tc:minecartAmfleet2	Amfleet2	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.Amfleet2	amfleet2_
 item.tc:minecartAmfleetCab	AmfleetCab	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.controlcar.AmfleetCab	amfleet_Cabber_
+item.tc:minecartBSC3483	BSC3483	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.BSC3483	BSC_3483_
 item.tc:minecartF7BSlug	F7BSlug	com.jcirmodelsquad.tcjcir.vehicles.locomotives.BUnitF7	Skin_Plane_ThisErrorIsERatedForEveryone
 item.tc:minecartBethgonII	BethgonII	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.BethgonII	Bethgon_
 item.tc:minecartBigMeme	BigMeme	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.BigMeme	bigmeme_
@@ -89,6 +90,7 @@ item.tc:minecartCE8	CE8	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.Di
 item.tc:minecartCF7angle	CF7angle	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7angle	CF7_Angle_
 item.tc:minecartCF7angle2	CF7angle2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7angle2	CF7_Angle_DBRR_
 item.tc:minecartCF7angle3	CF7angle3	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7angle3	CF7a_
+item.tc:minecartCF7b	CF7b	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7b	CF7b_
 item.tc:minecartCF7hh	CF7hh	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7hh	CF7_highhood_
 item.tc:minecartCF7round	CF7round	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7round	CF7_Round_
 item.tc:minecartCF7round3	CF7round3	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7round3	CF7_Round_F_
@@ -143,7 +145,9 @@ item.tc:minecart25Ton	GE 25-ton	com.jcirmodelsquad.tcjcir.vehicles.locomotives.d
 item.tc:minecart44Ton	GE 44-ton	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGE44Ton	44_ton_
 item.tc:minecartGP13	GP13	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP13	gp13_
 item.tc:minecartGP15	GP15	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP15	gp15_
+item.tc:minecartGP15T	GP15T	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP15T	gp15t_
 item.tc:minecartGP18	GP18	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP18	gp18_
+item.tc:minecartGP20	GP20	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP20	gp20_
 item.tc:minecartGP30	GP30	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP30	gp30_
 item.tc:minecartGP35	GP35	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP35	gp35_
 item.tc:minecartGP38	GP38	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP38	gp38_
@@ -222,6 +226,7 @@ item.tc:minecartSD50	SD50	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.
 item.tc:minecartSD60	SD60	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD60	sd60_
 item.tc:minecartSD70ACe	SD70ACe	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD70ACe	sd70ace_
 item.tc:minecartSD70ACe_H	SD70ACe_H	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD70ACe_H	sd70ace_h_
+item.tc:minecartSD70M	SD70M	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD70M	sd70m_
 item.tc:minecartSD70Mac	SD70Mac	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD70Mac	sd70mac_
 item.tc:minecartSD9	SD9	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD9	sd9_
 item.tc:minecartSDL39	SDL39	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSDL39	sdl39_
@@ -280,6 +285,8 @@ item.tc:minecartTwoBil	TwoBil	com.jcirmodelsquad.tcjcir.vehicles.locomotives.ele
 item.tc:minecartW_A11	SEC W-A11	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricW_A11	W_A11_
 item.tc:minecartW_A55	SEC W-A55	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricW_A55	W_A55_
 item.tc:minecartW_A55_Combine	SEC W-A55 Combine	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricW_A55_Combine	W_A55_Combine_
+item.bipCompound	Compound	BIP.common.entity.rollingStock.EnitityLocoSteamCompound	LMS_4p_
+item.bipBRBrakeVan20t	BRBrakeVan20t	BIP.common.entity.rollingStock.EntityBRBrakeVan20t	BRBrakeVan_
 item.tc:minecartLocoDD35B	DD35 B Unit	train.common.entity.rollingStock.EntityBUnitDD35	dd35b_
 item.tc:minecartBoxCartPRR	Freight Box Cart PRR	train.common.entity.rollingStock.freight.EntityBoxCartPRR	PRR_X31a
 item.tc:minecartBoxCartUS	Freight Box Cart US	train.common.entity.rollingStock.freight.EntityBoxCartUS	boxCartUS_
@@ -309,14 +316,14 @@ item.tc:minecartFreightCenterBeam_Empty	Freight Center Beam Empty	train.common.e
 item.tc:minecartFreightCenterBeam_Wood_1	Freight Center Beam Wood1	train.common.entity.rollingStock.freight.EntityFreightCenterbeam_Wood_1	freight_centerbeam_wood_1_
 item.tc:minecartFreightCenterBeam_Wood_2	Freight Center Beam Wood2	train.common.entity.rollingStock.freight.EntityFreightCenterbeam_Wood_2	freight_centerbeam_wood_2_
 item.tc:minecartFreightClosed	Freight Cart Closed RedBrown	train.common.entity.rollingStock.freight.EntityFreightClosed	freightClosed
-item.tc:minecartDenverRioGrandeBaggage	Denver Rio Grande Baggage	train.common.entity.rollingStock.EntityFreightDenverRioGrande	drg_baggage_
+item.tc:minecartDenverRioGrandeBaggage	Denver Rio Grande Baggage	train.common.entity.rollingStock.passenger.baggagecar.EntityFreightDenverRioGrande	drg_baggage_
 item.tc:minecartFreightDepressedFlatbed	Freight Depressed Flatcar	train.common.entity.rollingStock.freight.EntityFreightDepressedFlatbed	depressed_flatbed_
 item.tc:minecartGS4_Baggage	Freight Cart GS4 Baggage	train.common.entity.rollingStock.passenger.baggagecar.EntityFreightGS4_Baggage	GS4_baggage_
 item.tc:minecartFreightGTNG	Freight GTNG Ore Wagon	train.common.entity.rollingStock.EntityFreightGTNG	GTNGOreWagon
-item.tc:minecartFreightGermanPost	Freight German Post	train.common.entity.rollingStock.EntityFreightGermanPost	german_post_
+item.tc:minecartFreightGermanPost	Freight German Post	train.common.entity.rollingStock.passenger.rpo.EntityFreightGermanPost	german_post_
 item.tc:minecartFreightGondola_DB	Freight Gondola DB	train.common.entity.rollingStock.freight.EntityFreightGondola_DB	freightGondola_DB_
 item.tc:minecartGrain	Freight Hopper Green	train.common.entity.rollingStock.freight.EntityFreightGrain	hopper_
-item.tc:minecartHeavyweightMailcar	Heavyweight Freight Car	train.common.entity.rollingStock.EntityFreightHeavyweight	heavyweight_mailcar
+item.tc:minecartHeavyweightMailcar	Heavyweight Freight Car	train.common.entity.rollingStock.passenger.rpo.EntityFreightHeavyweight	heavyweight_mailcar
 item.tc:minecartHeavyweightFreight	Freight Heavyweight Baggage	train.common.entity.rollingStock.passenger.baggagecar.EntityFreightHeavyweightBaggage	heavyweightBoxcar_
 item.tc:minecartFreightHopperUS	Freight Hopper US	train.common.entity.rollingStock.freight.EntityFreightHopperUS	freightHopperUS_
 item.tc:minecartIceWagon	Freight Ice Wagon	train.common.entity.rollingStock.freight.EntityFreightIceWagon	icewagon
@@ -361,11 +368,13 @@ item.tc:minecartE10_DB	Loco Electric E10 DB	train.common.entity.rollingStock.ele
 item.tc:minecartLocoHighSpeedZeroED	Loco Electric High Speed ZeroED	train.common.entity.rollingStock.electric.EntityLocoElectricHighSpeedZeroED	locoHighSpeedZeroED_
 item.tc:minecartICE1_Loco	Loco Electric ICE 1	train.common.entity.rollingStock.electric.EntityLocoElectricICE1	ICE1_Engine_
 item.tc:minecartLocoMineTrain	Loco Electric Minetrain	train.common.entity.rollingStock.electric.EntityLocoElectricMinetrain	locoMinetrain
+item.bippeploco	peploco	BIP.common.entity.rollingStock.EntityLocoElectricPep	PEP_
 item.tc:minecartNYTram	Loco Electric Tram NY	train.common.entity.rollingStock.electric.EntityLocoElectricTramNY	locoTramNY_
 item.tc:minecartTramWood	Loco Electric Yellow Wood Tram	train.common.entity.rollingStock.electric.EntityLocoElectricTramWood	tram
 item.tc:minecartVL10	Loco Electric VL10	train.common.entity.rollingStock.electric.EntityLocoElectricVL10	vl10
 item.tc:minecartLocoSteam040vb	Loco Steam 040VB	train.common.entity.rollingStock.steam.EntityLocoSteam040VB	loco040VB
 item.tc:minecartLocoSteam262T	Loco Steam 262T	train.common.entity.rollingStock.steam.EntityLocoSteam262T	262t
+item.bipGWR42xx	GWR42xx	BIP.common.entity.rollingStock.EntityLocoSteam42xx	GWR_425272_
 item.tc:minecartPower	Loco Steam 4-4-0	train.common.entity.rollingStock.steam.EntityLocoSteam4_4_0	4-4-0-loco_
 item.tc:minecartLocoSteamAdler	Loco Steam Adler	train.common.entity.rollingStock.steam.EntityLocoSteamAdler	locoAdler
 item.tc:minecartLocoAlcoSC4	Loco Steam Alco SC4	train.common.entity.rollingStock.steam.EntityLocoSteamAlcoSC4	AlcoSC4_
@@ -391,6 +400,7 @@ item.tc:minecartGS4_Loco	Loco Steam GS4	train.common.entity.rollingStock.steam.E
 item.tc:minecartLocoHallClass	Loco Hall Class	train.common.entity.rollingStock.steam.EntityLocoSteamHallClass	Hall_Class_Locomotive_
 item.tc:minecartHeavySteam	Loco Steam Heavy	train.common.entity.rollingStock.steam.EntityLocoSteamHeavy	heavysteam
 item.tc:minecartLocoKingClass	Loco King Class	train.common.entity.rollingStock.steam.EntityLocoSteamKingClass	King_Class_Locomotive_
+item.bipLNERY7	LNERY7	BIP.common.entity.rollingStock.EntityLocoSteamLNERY7	Y7_
 item.tc:minecartLocoLSSP7	Loco Steam LSSP7	train.common.entity.rollingStock.steam.EntityLocoSteamLSSP7	LSSP7
 item.tc:minecartLocoMILWClassA	Loco Steam MILW Class A	train.common.entity.rollingStock.steam.EntityLocoSteamMILWClassA	locoMILW_ClassA
 item.tc:minecartLocoA4Mallard	Loco Steam A4 Mallard	train.common.entity.rollingStock.steam.EntityLocoSteamMallardA4	locoA4_UK_
@@ -404,6 +414,7 @@ item.tc:minecartLocoSouthern1102	Loco Steam Southern 1102	train.common.entity.ro
 item.tc:minecartLocoUSATCUK	Loco Steam USATCUK	train.common.entity.rollingStock.steam.EntityLocoSteamUSATCUK	USATCUK
 item.tc:minecartLocoUSATCUS	Loco Steam USATCUS	train.common.entity.rollingStock.steam.EntityLocoSteamUSATCUS	USATCUS
 item.tc:minecartLocoSteamVBShay	Loco Steam VB Shay	train.common.entity.rollingStock.steam.EntityLocoSteamVBShay	vbshay
+item.bipLowmac	Lowmac	BIP.common.entity.rollingStock.EntityLowmac	LOWMAC_
 item.tc:minecartMailWagon_DB	Mail Wagon DB	train.common.entity.rollingStock.workcart.EntityMailWagen_DB	mailWagen_DB
 item.tc:minecartPassenger2	Passenger Small Black	train.common.entity.rollingStock.passenger.EntityPassenger2	passenger3_
 item.tc:minecartPassenger5	Passenger Green Long	train.common.entity.rollingStock.passenger.EntityPassenger5	passenger5_
@@ -432,10 +443,13 @@ item.tc:minecartPassengerRheingoldPanorama	Rheingold Panorama	train.common.entit
 item.tc:minecartPassengerTramNY	Passenger Tram NY	train.common.entity.rollingStock.passenger.EntityPassengerTramNY	locoTramNY_
 item.tc:minecartPassenger8_1class_DB	Passenger 1Class DB	train.common.entity.rollingStock.passenger.EntityPassenger_1class_DB	passenger_1class_DB_
 item.tc:minecartPassenger9_2class_DB	Passenger 2Class DB	train.common.entity.rollingStock.passenger.EntityPassenger_2class_DB	passenger_2class_DB_
+item.bippepPTSO	pepPTSO	BIP.common.entity.rollingStock.EntityPassengerpepPTSO	PEP_
+item.bippepTSO	pepTSO	BIP.common.entity.rollingStock.EntityPassengerpepTSO	PEP_
 item.tc:minecartPropagandaBritish	Propaganda Britain	train.common.entity.rollingStock.EntityPropagandaBritain	propaganda_Britain_
 item.tc:minecartPropagandaJapan	Propaganda Japan	train.common.entity.rollingStock.EntityPropagandaJapan	propaganda_Japan_
 item.tc:minecartPropagandaUs	Propaganda USA	train.common.entity.rollingStock.EntityPropagandaUS	propaganda_new_
 item.tc:minecartPropagandaUSSR	Propaganda USSR	train.common.entity.rollingStock.EntityPropagandaUSSR	propaganda_USSR_
+item.bip7plank	sevenplank	BIP.common.entity.rollingStock.EntitySevenplank	Bip7plank_
 item.tc:minecartStockCar	Stock Cart	train.common.entity.rollingStock.EntityStockCar	stockcar_
 item.tc:minecartDRWGStockCar	DRWG Stock Cart	train.common.entity.rollingStock.EntityStockCarDRWG	drwgstockcar
 item.tc:minecartWatertransp	Tank Lava	train.common.entity.rollingStock.tanker.EntityTankLava	lavacar_
@@ -444,6 +458,7 @@ item.tc:minecartTankWagon2	Tank Wagon Grey	train.common.entity.rollingStock.tank
 item.tc:minecartTankWagonThreeDome	Tank Wagon Three Dome	train.common.entity.rollingStock.tanker.EntityTankWagonThreeDome	tanker_three_dome_
 item.tc:minecartTankWagonUS	Tank Wagon US	train.common.entity.rollingStock.tanker.EntityTankWagonUS	tankWagonUS_
 item.tc:minecartTankWagon_DB	Tank Wagon DB	train.common.entity.rollingStock.tanker.EntityTankWagon_DB	tankWagon_DB_
+item.bipTankerUK	TankerUK	BIP.common.entity.rollingStock.EntityTankerUK	Tanker_BIP_
 item.tc:minecart4000GallonTender	4000GallonTender	train.common.entity.rollingStock.tender.EntityTender4000	GWR_Tender_
 item.tc:minecartSteamRedTender	Tender 4-4-0	train.common.entity.rollingStock.tender.EntityTender4_4_0	4-4-0-loco_tender_
 item.tc:minecartLocoA4MallardTender	Tender A4 Mallard	train.common.entity.rollingStock.tender.EntityTenderA4	tenderA4_UK_
@@ -451,6 +466,7 @@ item.tc:minecartTenderAdler	Tender Adler	train.common.entity.rollingStock.tender
 item.tc:minecartTenderBR01_DB	Tender BR01	train.common.entity.rollingStock.tender.EntityTenderBR01_DB	tenderBR01_DB
 item.tc:minecarttenderBerk1225	1225 tender	train.common.entity.rollingStock.tender.EntityTenderBerk1225	Berkshire_tender_
 item.tc:minecartTenderC62Class	Tender C62Class	train.common.entity.rollingStock.tender.EntityTenderC62Class	c62_tender_
+item.bipCompoundTender	CompoundTender	BIP.common.entity.rollingStock.EntityTenderCompound	LMS_4p_
 item.tc:minecartLocoCoranationClassTender	Tender Coranation Class	train.common.entity.rollingStock.tender.EntityTenderCoranationClass	CoranationClassTender
 item.tc:minecartTenderD51	Tender D51	train.common.entity.rollingStock.tender.EntityTenderD51	d51_tender
 item.tc:minecartTenderEr	Tender ER_USSR	train.common.entity.rollingStock.tender.EntityTenderEr_Ussr	tenderEr_Ussr
@@ -463,10 +479,12 @@ item.tc:minecartTender	Tender Small Black	train.common.entity.rollingStock.tende
 item.tc:minecartTenderC41	Tender C41	train.common.entity.rollingStock.tender.EntityTender_C41	C41Tender_
 item.tc:minecartTenderSouthern1102	Tender Southern1102	train.common.entity.rollingStock.tender.EntityTender_Southern1102	Southern1102Tender
 item.tc:minecartBuilder	Tracks Builder	train.common.entity.rollingStock.EntityTracksBuilder	builder2
+item.bipventvan	ventvan	BIP.common.entity.rollingStock.EntityVentVan	Vent_Van_
 item.tc:minecartWork	Work Cart Yellow	train.common.entity.rollingStock.workcart.EntityWorkCart	workcart
 item.tc:minecartEvans5100	Evans5100	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Evans5100	Evans_5100_
 item.tc:minecartEvansCoilCar	EvansCoilCar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.EvansCoilCar	EvansCoilCar_
 item.tc:minecartGeometryCar	NXTrack Geometry Car	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.misc.ExperimentalGeometryCar	geometrycar_
+item.tc:minecartFMCWoodchip	FMCWoodchip	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.FMCWoodchip	fmcwoodchip_
 item.tc:minecartFNCC2375Hopper	FNCC2375Hopper	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.FNCC2375Hopper	FNCC2375_
 item.tc:minecartFNCC50Foot	FNCC50FootBoxcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.FNCC50Foot	FNCC50Foot_
 item.tc:minecartFNCC60FootBulk	FNCC60FootBulk	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.FNCC60FootBulk	FNCC60FootBulk_
@@ -506,7 +524,9 @@ item.tc:minecartMILW1935_44SeatCoach_Observation	MILW 1935 44 Seat Coach Observa
 item.tc:minecartMILW1935_48SeatCoach	MILW 1935 48 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.MILW1935_48SeatCoach	MILW1935_48SeatCoach_
 item.tc:minecartMILW40boxcar	MILW40boxcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MILW40boxcar	milw40_
 item.tc:minecartMILWPrewarBaggage	MILW Prewar Baggage	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.MILWPrewarBaggage	MILW_prewar_baggage_
+item.tc:minecartMON_lightweightRPO30	Monon Lightweight RPO (30' mail)	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.rpo.MONRPO_30	MON_lightweight_RPO30_
 item.tc:minecartMON_lightweightCoach	Monon 21 Series Lightweight Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.MON_LightweightCoach	MON_LightweightCoach_
+item.tc:minecartMON_lightweightDeluxeCoach	Monon 27 Series Lightweight Deluxe Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.MON_LightweightDeluxeCoach	MON_LightweightDeluxeCoach_
 item.tc:minecartMaPa35FootFlatcar	MaPa_35Flatcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MaPa35FootFlat	MaPa_35flat_
 item.tc:minecartMaPa35FootGondola	MaPa_35Gondola	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MaPa35FootGondola	MaPa_35gondola_
 item.tc:minecartMillGondola	52footMillGondola	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MillGondola	MillGondola_
@@ -598,6 +618,7 @@ item.tc:minecartFourCorTail	FourCorTail	com.jcirmodelsquad.tcjcir.vehicles.rolli
 item.tc:minecartFourCorTrailerComposite	FourCorTrailerComposite	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PassengerFourCorTrailerComposite	4-cor_trailer_
 item.tc:minecartFourCorTrailerSecond	FourCorTrailerSecond	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PassengerFourCorTrailerSecond	4-cor_trailer_
 item.tc:minecartTwoBilTail	TwoBilTail	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PassengerTwoBilTail	2-bil_
+item.tc:minecartPullman69ChairCar	Pullman 69' Chair Car	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.Pullman69ChairCar	Pullman69ChairCar_
 item.tc:minecartR70Reefer	R70Reefer	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.R70Reefer	R70Reefer_
 item.tc:minecartR70Reefer2	R70Reefer2	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.R70Reefer2	R-70-15_
 item.tc:minecartReefer64	Reefer64	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Reefer64Foot	reefer_64_
@@ -607,6 +628,7 @@ item.tc:minecartRoundHopper	Freight Round Covered Hopper	com.jcirmodelsquad.tcjc
 item.tc:minecartSBMS	SBMS	com.jcirmodelsquad.tcjcir.vehicles.locomotives.SBMS	SBMS_
 item.tc:minecartSMSC1	SMSC1	com.jcirmodelsquad.tcjcir.vehicles.locomotives.SMSC1	SMSC1_
 item.tc:minecartSP_B50	SP_B50	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.SP_B50	sp_b_50_
+item.tc:minecartSP_B50_AAR	SP_B50_AAR	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.SP_B50_AAR	sp_b_50_28_
 item.tc:minecartSkeletonLogCar	Skeleton	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.SkeletonLogCar	SkeletonLogCar_
 item.tc:minecartSlugMA	SlugMA	com.jcirmodelsquad.tcjcir.vehicles.locomotives.SlugMA	SMA_
 item.tc:minecartStampedeRack	StampedeRack	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.misc.StampedeRack	cswr_stampederack_
@@ -634,6 +656,62 @@ item.tc:minecartShay3Truck	3 Truck Shay	com.jcirmodelsquad.tcjcir.vehicles.locom
 item.tc:minecartSkook	Skookum	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamSkook	skookum
 item.tc:minecartVBShay2	2TruckVerticalBoilerShay	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamVBShay2	vbshay2_
 item.tc:minecartSteelSlabFlat	SteelSlabFlat	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.SteelSlabFlat	steelslab15_
+item.swedishpack:minecartSJLittQ12	Litterera Q12	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityEntityWagonSJLittQ12	SJLittQ12_
+item.swedishpack:minecartSJLittDm3	Litterera Dm3	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittDm3	Dm3_
+item.swedishpack:minecartSJLittElos	Litterera Elos	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittElos	SJLittElos_
+item.swedishpack:minecartSJLittG	Litterera G	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittG	SJLittG_
+item.swedishpack:minecartSJLittLgns_081	Litterera Lgns-081	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittLgns_081	Lgns_081_
+item.swedishpack:minecartSJLittLgs_722	Litterera Lgs-722	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittLgs_722	Lgs_722_
+item.swedishpack:minecartSJLittM1	Litterera M1	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittM1	SJLittM1_
+item.swedishpack:minecartSJLittO	Litterera O	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittO	SJLittO_
+item.swedishpack:minecartSJLittOa	Litterera Oa	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittOaVagn	SJLittOaVagn_
+item.swedishpack:minecartSJLittOs	Litterera Os	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittOs	SJLittO_
+item.swedishpack:minecartSJLittOs_w	Litterera Os-w	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittOs_w	SJLittOs_w_
+item.swedishpack:minecartSJLittUDFo20	Litterera UDFo20	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittUDFo20	UDFo20_
+item.swedishpack:minecartSJLittUFV	Litterera UFV	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittUFV	UFV_
+item.swedishpack:minecartSJLittT21	SJ Litterera T21	swedishpack.common.rollingStock.Locomotives.Diesel.Swedish_PackEntityLocoDieselSJLittT21	T21_
+item.swedishpack:minecartSJLittT23	SJ Litterera T23	swedishpack.common.rollingStock.Locomotives.Diesel.Swedish_PackEntityLocoDieselSJLittT23	T23_
+item.swedishpack:minecartSJLittT31	SJ Litterera T31	swedishpack.common.rollingStock.Locomotives.Diesel.Swedish_PackEntityLocoDieselSJLittT31	T31_
+item.swedishpack:minecartSJLittY6	SJ Litterera Y6	swedishpack.common.rollingStock.Locomotives.Diesel.Swedish_PackEntityLocoDieselSJLittY6	Y6_
+item.swedishpack:minecartBJLittBk	BJ Litterera Bk	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricBJLittBk	Bk_
+item.swedishpack:minecartBJLittDs	BJ Litterera Ds	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricBJLittDs	Ds_
+item.swedishpack:minecartGBJLittBs	GBJ Litterera Bs	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricGBJLittBs	Bs_
+item.swedishpack:minecartOBBLitt1043	ÖBB Litterera 1043	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricOBBLitt1043	Obb1043_
+item.swedishpack:minecartSJLittD	SJ Litterera D	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittD	D_
+item.swedishpack:minecartSJLittDa	SJ Litterera Da	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittDa	Da_
+item.swedishpack:minecartSJLittDg2	SJ Litterera Dg2	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittDg2	Dg2_
+item.swedishpack:minecartSJLittDm	SJ Litterera Dm	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittDm	Dm_
+item.swedishpack:minecartSJLittDu2	SJ Litterera Du2	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittDu2	Du2_
+item.swedishpack:minecartSJLittFel	SJ Litterera Fel	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittFel	Fel_
+item.swedishpack:minecartSJLittMa	SJ Litterera Ma	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittMa	Ma_
+item.swedishpack:minecartSJLittOaA	SJ Litterera OaA	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittOa	Oa_
+item.swedishpack:minecartSJLittObA	SJ Litterera ObA	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittOb	Ob_
+item.swedishpack:minecartSJLittOc	SJ Litterera Oc	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittOc	Oc_
+item.swedishpack:minecartSJLittOd	SJ Litterera Od	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittOd	Od_
+item.swedishpack:minecartSJLittOe	SJ Litterera Oe	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittOe	Oe_
+item.swedishpack:minecartSJLittOf	SJ Litterera Of	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittOf	Of_
+item.swedishpack:minecartSJLittOfs	SJ Litterera Ofs	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittOfs	Of_
+item.swedishpack:minecartSJLittRc1	SJ Litterera Rc1	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittRc1	Rc1_
+item.swedishpack:minecartSJLittRc2	SJ Litterera Rc2	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittRc2	Rc2_
+item.swedishpack:minecartOBBLittRc2	SJ Litterera Rc2obb	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittRc2obb	Rc2obb_
+item.swedishpack:minecartSJLittRc3	SJ Litterera Rc3	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittRc3	Rc3_
+item.swedishpack:minecartSJLittRc4	SJ Litterera Rc4	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittRc4	Rc4_
+item.swedishpack:minecartSJLittRc5	SJ Litterera Rc5	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittRc5	Rc5_
+item.swedishpack:minecartSJLittRc6	SJ Litterera Rc6	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittRc6	Rc6_
+item.swedishpack:minecartSJLittRc7	SJ Litterera Rc7	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittRc7	Rc7_
+item.swedishpack:minecartSJLittX16	SJ Litterera X16	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittX16	X16_
+item.swedishpack:minecartTGOJLittBt	TGOJ Litterera Bt	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricTGOJLittBt	Bt_
+item.swedishpack:minecartTGOJLittMa	TGOJ Litterera Ma	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricTGOJLittMa	Ma_
+item.swedishpack:minecartSJLittB1909	SJ Litterera B1909	swedishpack.common.rollingStock.Locomotives.Steam.Swedish_PackEntityLocoSteamSJLittB1909	B1909_
+item.swedishpack:minecartSJLittB1919	SJ Litterera B1919	swedishpack.common.rollingStock.Locomotives.Steam.Swedish_PackEntityLocoSteamSJLittB1919	B1909_
+item.swedishpack:minecartSJLittE	SJ Litterera E	swedishpack.common.rollingStock.Locomotives.Steam.Swedish_PackEntityLocoSteamSJLittE	E_
+item.swedishpack:minecartSJLittE2	SJ Litterera E2	swedishpack.common.rollingStock.Locomotives.Steam.Swedish_PackEntityLocoSteamSJLittE2	E2_
+item.swedishpack:minecartSJLittF	SJ Litterera F	swedishpack.common.rollingStock.Locomotives.Steam.Swedish_PackEntityLocoSteamSJLittF	F_
+item.swedishpack:minecartSJLittUBF6Y	Litterera UBF6Y	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityPassangerCombiSJLittUBF6Y	UBF6Y_
+item.swedishpack:minecartSJLittUb	Litterera Ub	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityPassangerSJLittUB	UB_
+item.swedishpack:minecartSJLittATender	Litterera A Tender	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityTenderSJLittA	SJLittATender_
+item.swedishpack:minecartSJLittCTender	Litterera C Tender	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityTenderSJLittC	SJLittCTender_
+item.swedishpack:minecartSJLittFTender	Litterera F Tender	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityTenderSJLittF	SJLittFTender_
 item.tc:minecartTender10k	Tender10k	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.Tender10k	wp_10k_
 item.tc:minecartTender460	Tender460	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.Tender460	4-6-0_tender_
 item.tc:minecartWCPBaler	WCPBaler	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.TenderBaler	wcp_baler

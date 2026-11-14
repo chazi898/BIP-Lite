@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "legacyColors": {
+    "0": "bip:black",
+    "3": "bip:brown",
+    "6": "bip:cyan",
+    "2": "bip:green",
+    "8": "bip:grey",
+    "13": "bip:magenta",
+    "14": "bip:orange",
+    "9": "bip:pink",
+    "5": "bip:purple",
+    "15": "bip:white",
+    "20": "bip:skin20",
+    "21": "bip:skin21",
+    "22": "bip:skin22",
+    "23": "bip:skin23",
+    "24": "bip:skin24",
+    "26": "bip:skin26"
+  },
+  "stock": "bip:pepptso"
+}

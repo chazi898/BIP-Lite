@@ -3,7 +3,32 @@
   "stock": "bip:class43",
   "lighting": {
     "defaults": {
-      "fixtures": {}
+      "fixtures": {
+        "headlamp": {
+          "preset": "headlight",
+          "color": "#FFF4B4",
+          "beamRotation": {
+            "pitchDegrees": 40,
+            "yawDegrees": 0
+          }
+        },
+        "sideheadlampleft": {
+          "preset": "headlight",
+          "color": "#FFFFFF",
+          "beamRotation": {
+            "pitchDegrees": 32.5,
+            "yawDegrees": 32
+          }
+        },
+        "sideheadlampright": {
+          "preset": "headlight",
+          "color": "#FFFFFF",
+          "beamRotation": {
+            "pitchDegrees": 32.5,
+            "yawDegrees": -32
+          }
+        }
+      }
     }
   },
   "skins": {

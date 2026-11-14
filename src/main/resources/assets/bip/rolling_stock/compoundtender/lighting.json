@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "stock": "bip:compoundtender",
+  "lighting": {
+    "defaults": {
+      "fixtures": {}
+    }
+  },
+  "skins": {
+    "bip:pink": {},
+    "bip:white": {},
+    "bip:red": {},
+    "bip:green": {},
+    "bip:black": {},
+    "bip:blue": {},
+    "bip:lightgrey": {},
+    "bip:grey": {},
+    "bip:magenta": {},
+    "bip:lightblue": {},
+    "bip:orange": {},
+    "bip:purple": {},
+    "bip:lime": {},
+    "bip:yellow": {}
+  }
+}

@@ -3,12 +3,31 @@
   "stock": "bip:brbrakevan20t",
   "lighting": {
     "defaults": {
-      "fixtures": {}
+      "fixtures": {
+        "taillamp": {
+          "preset": "headlight",
+          "color": "#FF2020",
+          "beamLength": 1.0,
+          "beamWidth": 1.0,
+          "beamRotation": {
+            "pitchDegrees": -5.0,
+            "yawDegrees": 0
+          }
+        }
+      }
     }
   },
   "skins": {
     "bip:brown": {},
-    "bip:grey": {},
+    "bip:grey": {
+      "lighting": {
+        "fixtures": {
+          "taillamp": {
+            "color": "#FF2020"
+          }
+        }
+      }
+    },
     "bip:red": {},
     "bip:yellow": {},
     "bip:orange": {},

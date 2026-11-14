@@ -6,7 +6,6 @@
 // Model Creator: 
 // Created on: 14.10.2021 - 00:55:19
 // Last changed on: 14.10.2021 - 00:55:19
-
 package BIP.client.render.locomotive.steam; //Path where the model is located
 
 import net.minecraft.entity.Entity;

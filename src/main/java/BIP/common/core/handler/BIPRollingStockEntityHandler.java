@@ -45,6 +45,22 @@ public class BIPRollingStockEntityHandler
                                         12),
                                 Instance() // don't touch this line
                         );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity
+                        (BIPTrainItemIDs.pepPTSO.item,
+                                new TrainRecord("pepPTSO", EntityPassengerpepPTSO.class, BIPTrainItemIDs.pepPTSO.item, EnumTrainType.Passenger, 3,
+                                        new String[]{"Black", "Brown", "Cyan", "White", "Green", "Grey", "Magenta", "Orange", "Pink", "Purple", "Skin20", "Skin21", "Skin22", "Skin24", "Skin26"},
+                                        12),
+                                Instance()
+                        );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity
+                        (BIPTrainItemIDs.pepTSO.item,
+                                new TrainRecord("pepTSO", EntityPassengerpepTSO.class, BIPTrainItemIDs.pepTSO.item, EnumTrainType.Passenger, 3,
+                                        new String[]{"Black", "Brown", "Cyan", "White", "LightBlue", "LightGrey", "Lime", "Yellow", "Skin17", "Skin19", "Skin20", "Skin21", "Skin22", "Skin24"},
+                                        12),
+                                Instance()
+                        );
 
         /** diesel */
         Traincraft.traincraftRegistry
@@ -65,6 +81,13 @@ public class BIPRollingStockEntityHandler
                                 0.75, 2.77f, 10000),
                         Instance()
                 );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(BIPTrainItemIDs.peploco.item,
+                        new TrainRecord("peploco", EntityLocoElectricPep.class, BIPTrainItemIDs.peploco.item, EnumTrainType.Electric, 0,
+                                new String[]{"Black", "Blue", "Brown", "Cyan", "White", "Green", "Grey", "LightBlue", "LightGrey", "Lime", "Magenta", "Orange", "Pink", "Purple", "Yellow", "Skin17", "Skin18", "Skin19", "Skin20", "Skin21", "Skin22", "Skin24", "Skin26"}, 12, 0, 0.7, 121,
+                                440, 100, 0, 0.75, -3.95f, 0),
+                        Instance()
+                );
         /** steam */
         Traincraft.traincraftRegistry
                 .RegisterRollingStockEntity(BIPTrainItemIDs.LNERY7.item,
@@ -78,10 +101,24 @@ public class BIPRollingStockEntityHandler
                 .RegisterRollingStockEntity(BIPTrainItemIDs.GWR42xx.item,
                         new TrainRecord("GWR42xx", EntityLocoSteam42xx.class, BIPTrainItemIDs.GWR42xx.item, EnumTrainType.Steam, 0,
                                 new String[]{"Blue", "Green", "Lime", "Pink", "Purple", "Red", "Yellow", "Skin17", "White", "Black", "Cyan", "LightBlue", "Grey", "Skin18", "Orange", "LightGrey", "Brown"}, 8,
-                                0, 0.8, 100, 1500, 10, 100, 0.8, -2.54f, 8200),
+                                0, 0.8, 100, 1500, 10, 100, 0.8, -2.54f, 8000),
+                        Instance()
+                );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(BIPTrainItemIDs.Compound.item,
+                        new TrainRecord("Compound", EnitityLocoSteamCompound.class, BIPTrainItemIDs.Compound.item, EnumTrainType.Steam, 0,
+                                new String[]{"Pink", "White", "Red", "Green", "Black", "Blue", "LightGrey", "Grey", "Magenta", "LightBlue", "Orange", "Purple", "Lime", "Yellow"}, 8,
+                                0, 0.75, 137, 2265,  10, 120, 0.75, -3, 4000),
                         Instance()
                 );
         /** tender */
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(BIPTrainItemIDs.CompoundTender.item,
+                        new TrainRecord("CompoundTender", EntityTenderCompound.class, BIPTrainItemIDs.CompoundTender.item, EnumTrainType.Tender, 1,
+                                new String[]{"Pink", "White", "Red", "Green", "Black", "Blue", "LightGrey", "Grey", "Magenta", "LightBlue", "Orange", "Purple", "Lime", "Yellow"}, 8,
+                                18).setTankCapacity(10000),
+                        Instance()
+                );
 
         /** freight */
         Traincraft.traincraftRegistry

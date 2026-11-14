@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "stock": "bip:peploco",
+  "lighting": {
+    "defaults": {
+      "fixtures": {
+        "brreverse_left": {
+          "color": "#FF2020",
+          "preset": "marker_light"
+        },
+        "brhead1": {
+          "preset": "headlight",
+          "group": "brhead"
+        },
+        "brhead2": {
+          "preset": "headlight",
+          "group": "brhead"
+        },
+        "brhead3": {
+          "preset": "headlight",
+          "group": "brhead"
+        },
+        "brhead4": {
+          "preset": "headlight",
+          "group": "brhead"
+        },
+        "brhead": {
+          "preset": "headlight",
+          "color": "#FFFFFF"
+        },
+        "brreverse3_l": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "brreverse_left"
+        },
+        "brreverse4_l": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "brreverse_left"
+        },
+        "brreverse1_l": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "brreverse_left"
+        },
+        "brreverse2_l": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "brreverse_left"
+        },
+        "brreverseright2": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "brreverseright"
+        },
+        "brreverseright3": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "brreverseright"
+        },
+        "brreverseright1": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "brreverseright"
+        },
+        "brreverseright4": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "brreverseright"
+        },
+        "brreverseright": {
+          "color": "#FF2020",
+          "preset": "marker_light"
+        },
+        "angliahead_l2": {
+          "preset": "headlight",
+          "color": "#FFFFFF",
+          "group": "angliahead_l"
+        },
+        "angliahead_l1": {
+          "preset": "headlight",
+          "color": "#FFFFFF",
+          "group": "angliahead_l"
+        },
+        "angliahead_l3": {
+          "preset": "headlight",
+          "color": "#FFFFFF",
+          "group": "angliahead_l"
+        },
+        "angliahead_l4": {
+          "preset": "headlight",
+          "color": "#FFFFFF",
+          "group": "angliahead_l"
+        },
+        "angliahead_l": {
+          "preset": "headlight",
+          "color": "#FFFFFF"
+        },
+        "angliamarker_l1": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "angliamarker_l"
+        },
+        "angliamarker_l2": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "angliamarker_l"
+        },
+        "angliamarker_l3": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "angliamarker_l"
+        },
+        "angliamarker_l4": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "angliamarker_l"
+        },
+        "angliamarker_r1": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "angliamarker_r"
+        },
+        "angliamarker_r2": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "angliamarker_r"
+        },
+        "angliamarker_r3": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "angliamarker_r"
+        },
+        "angliamarker_r4": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "group": "angliamarker_r"
+        },
+        "angliamarker_l": {
+          "preset": "marker_light",
+          "color": "#FF2020"
+        },
+        "angliamarker_r": {
+          "preset": "marker_light",
+          "color": "#FF2020"
+        },
+        "brditchleft_l1": {
+          "preset": "ditch_light",
+          "color": "#FFF4B4",
+          "beamLength": 0.5,
+          "group": "brditchleft_l"
+        },
+        "brditchleft_l2": {
+          "preset": "ditch_light",
+          "color": "#FFF4B4",
+          "beamLength": 0.5,
+          "group": "brditchleft_l"
+        },
+        "brditchleft_l3": {
+          "preset": "ditch_light",
+          "color": "#FFF4B4",
+          "beamLength": 0.5,
+          "group": "brditchleft_l"
+        },
+        "brditchleft_l4": {
+          "preset": "ditch_light",
+          "color": "#FFF4B4",
+          "beamLength": 0.5,
+          "group": "brditchleft_l"
+        },
+        "brditchleft_l": {
+          "preset": "ditch_light",
+          "effect": "emissive_only",
+          "color": "#FFF4B4",
+          "hornResponse": {
+            "scope": "none"
+          }
+        },
+        "brditch_r1": {
+          "preset": "ditch_light",
+          "color": "#FFF4B4",
+          "beamLength": 0.5,
+          "group": "brditch_r"
+        },
+        "brditch_r2": {
+          "preset": "ditch_light",
+          "color": "#FFF4B4",
+          "beamLength": 0.5,
+          "group": "brditch_r"
+        },
+        "brditch_r3": {
+          "preset": "ditch_light",
+          "color": "#FFF4B4",
+          "beamLength": 0.5,
+          "group": "brditch_r"
+        },
+        "brditch_r4": {
+          "preset": "ditch_light",
+          "color": "#FFF4B4",
+          "beamLength": 0.5,
+          "group": "brditch_r"
+        },
+        "brditch_r": {
+          "preset": "ditch_light",
+          "color": "#FFF4B4",
+          "effect": "emissive_only",
+          "hornResponse": {
+            "scope": "none"
+          }
+        },
+        "angliahead_r1": {
+          "preset": "headlight",
+          "color": "#FFFFFF",
+          "group": "angliahead_r"
+        },
+        "angliahead_r2": {
+          "preset": "headlight",
+          "color": "#FFFFFF",
+          "group": "angliahead_r"
+        },
+        "angliahead_r3": {
+          "preset": "headlight",
+          "color": "#FFFFFF",
+          "group": "angliahead_r"
+        },
+        "angliahead_r4": {
+          "preset": "headlight",
+          "color": "#FFFFFF",
+          "group": "angliahead_r"
+        },
+        "angliahead_r": {
+          "preset": "headlight",
+          "color": "#FFFFFF"
+        },
+        "merseyhead_r1": {
+          "preset": "headlight",
+          "group": "merseyhead_r"
+        },
+        "merseyhead_r2": {
+          "preset": "headlight",
+          "group": "merseyhead_r"
+        },
+        "merseyhead_r4": {
+          "preset": "headlight",
+          "group": "merseyhead_r"
+        },
+        "merseyhead_r3": {
+          "preset": "headlight",
+          "group": "merseyhead_r"
+        },
+        "merseyhead_l1": {
+          "preset": "headlight",
+          "group": "merseyhead_l"
+        },
+        "merseyhead_l2": {
+          "preset": "headlight",
+          "group": "merseyhead_l"
+        },
+        "merseyhead_l3": {
+          "preset": "headlight",
+          "group": "merseyhead_l"
+        },
+        "merseyhead_l4": {
+          "preset": "headlight",
+          "group": "merseyhead_l"
+        },
+        "merseyhead_l": {
+          "preset": "headlight",
+          "color": "#FFFFFF"
+        },
+        "merseyhead_r": {
+          "color": "#FFFFFF",
+          "preset": "headlight"
+        },
+        "merseymarker_l1": {
+          "preset": "marker_light",
+          "group": "merseymarker_l"
+        },
+        "merseymarker_l2": {
+          "preset": "marker_light",
+          "group": "merseymarker_l"
+        },
+        "merseymarker_l3": {
+          "preset": "marker_light",
+          "group": "merseymarker_l"
+        },
+        "merseymarker_l4": {
+          "preset": "marker_light",
+          "group": "merseymarker_l"
+        },
+        "merseymarker_l": {
+          "color": "#FFF4B4",
+          "preset": "marker_light"
+        },
+        "merseymarker_r1": {
+          "preset": "marker_light",
+          "group": "merseymarker_r"
+        },
+        "merseymarker_r2": {
+          "preset": "marker_light",
+          "group": "merseymarker_r"
+        },
+        "merseymarker_r3": {
+          "preset": "marker_light",
+          "group": "merseymarker_r"
+        },
+        "merseymarker_r4": {
+          "preset": "marker_light",
+          "group": "merseymarker_r"
+        },
+        "merseymarker_r": {
+          "preset": "marker_light",
+          "color": "#FFF4B4"
+        }
+      }
+    }
+  },
+  "skins": {
+    "bip:black": {},
+    "bip:blue": {},
+    "bip:brown": {},
+    "bip:cyan": {},
+    "bip:green": {},
+    "bip:grey": {},
+    "bip:lightblue": {},
+    "bip:lightgrey": {},
+    "bip:lime": {},
+    "bip:magenta": {},
+    "bip:orange": {},
+    "bip:pink": {},
+    "bip:white": {},
+    "bip:yellow": {},
+    "bip:skin17": {},
+    "bip:skin18": {},
+    "bip:skin19": {},
+    "bip:skin20": {},
+    "bip:skin21": {},
+    "bip:skin22": {},
+    "bip:skin24": {},
+    "bip:skin26": {},
+    "bip:purple": {}
+  }
+}

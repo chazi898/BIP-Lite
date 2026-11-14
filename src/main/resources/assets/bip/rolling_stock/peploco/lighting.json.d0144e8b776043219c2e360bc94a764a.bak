@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "stock": "bip:peploco",
+  "lighting": {
+    "defaults": {
+      "fixtures": {
+        "merseymarker": {
+          "preset": "marker_light"
+        },
+        "merseyhead": {
+          "preset": "headlight"
+        },
+        "angliamarker": {
+          "preset": "marker_light",
+          "color": "#FF2020"
+        },
+        "angliahead": {
+          "preset": "headlight",
+          "color": "#FFFFFF"
+        },
+        "brreverse": {
+          "preset": "marker_light",
+          "color": "#FF2020"
+        },
+        "brditch": {
+          "preset": "ditch_light",
+          "color": "#FFF4B4"
+        },
+        "brhead": {
+          "preset": "headlight"
+        }
+      }
+    }
+  },
+  "skins": {
+    "bip:black": {},
+    "bip:blue": {},
+    "bip:brown": {},
+    "bip:cyan": {},
+    "bip:green": {},
+    "bip:grey": {},
+    "bip:lightblue": {},
+    "bip:lightgrey": {},
+    "bip:lime": {},
+    "bip:magenta": {},
+    "bip:orange": {},
+    "bip:pink": {},
+    "bip:white": {},
+    "bip:yellow": {},
+    "bip:skin17": {},
+    "bip:skin18": {},
+    "bip:skin19": {},
+    "bip:skin20": {},
+    "bip:skin21": {},
+    "bip:skin22": {},
+    "bip:skin24": {},
+    "bip:skin26": {},
+    "bip:purple": {}
+  }
+}

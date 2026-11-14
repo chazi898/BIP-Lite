@@ -38,43 +38,43 @@ public class EntityLocoSteamLNERY7 extends SteamTrain {
         setCargoManager(new CargoManager(new CargoSpecification[][]
                 {
                         {new CargoSpecification(ModelY7Headcode.class,
-                                BIPInfo.bip, "trains/Headcode/ClassA", "ClassA",
+                                BIPInfo.bip, "trains/Headcode/ClassA", "Class A",
                                 new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelY7Headcode.class,
-                                BIPInfo.bip, "trains/Headcode/ClassB", "ClassB",
+                                BIPInfo.bip, "trains/Headcode/ClassB", "Class B",
                                 new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelY7Headcode.class,
-                                BIPInfo.bip, "trains/Headcode/ClassC", "ClassC",
+                                BIPInfo.bip, "trains/Headcode/ClassC", "Class C",
                                 new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelY7Headcode.class,
-                                BIPInfo.bip, "trains/Headcode/ClassD", "ClassD",
+                                BIPInfo.bip, "trains/Headcode/ClassD", "Class D",
                                 new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelY7Headcode.class,
-                                BIPInfo.bip, "trains/Headcode/ClassE", "ClassE",
+                                BIPInfo.bip, "trains/Headcode/ClassE", "Class E",
                                 new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelY7Headcode.class,
-                                BIPInfo.bip, "trains/Headcode/ClassF", "ClassF",
+                                BIPInfo.bip, "trains/Headcode/ClassF", "Class F",
                                 new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelY7Headcode.class,
-                                BIPInfo.bip, "trains/Headcode/ClassG", "ClassG",
+                                BIPInfo.bip, "trains/Headcode/ClassG", "Class G",
                                 new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelY7Headcode.class,
-                                BIPInfo.bip, "trains/Headcode/ClassH", "ClassH",
+                                BIPInfo.bip, "trains/Headcode/ClassH", "Class H",
                                 new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelY7Headcode.class,
-                                BIPInfo.bip, "trains/Headcode/ClassJ", "ClassJ",
+                                BIPInfo.bip, "trains/Headcode/ClassJ", "Class J",
                                 new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                         {new CargoSpecification(ModelY7Headcode.class,
-                                BIPInfo.bip, "trains/Headcode/ClassK", "ClassK",
+                                BIPInfo.bip, "trains/Headcode/ClassK", "Class K",
                                 new CargoSpecification.RenderParameters().setOffset(0.0, 3, 0))
                         },
                 }));
